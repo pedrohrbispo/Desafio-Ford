@@ -14,13 +14,15 @@ regionsInfos.regionsConnecteds.forEach((region) => {
   departure.push(region.to);
 })
 
+console.log(allRegions);
 allRegions.forEach((region) => {
   isOnArrival = arrival.find((element) => element === region);
   isOnDeparture = departure.find((element) => element === region);
-  
+  console.log(isOnDeparture);
   if (!isOnArrival) {
     arrivalRoutes.push(region);
   }
+
   if (!isOnDeparture) {
     departure.push(region);
   }
