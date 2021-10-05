@@ -2,6 +2,8 @@
 const regionsInfos = require('./regionsConnecteds.json');
 const allRegions = regionsInfos.regions;
 
+// O código não está nem perto de estar completo, não tem validações que sejam coerentes e está apenas analisando as regiôes. A minha pretensão era de, no próximo passo, puxar as informações do arquivo "regions,json" e validar das formas corretas!
+
 // All regions must to be in the arrival and departure array
 const arrival = [];
 const departure = [];
