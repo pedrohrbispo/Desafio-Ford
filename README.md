@@ -1,4 +1,13 @@
 # Desafio Ford
+# Instruções para rodar o projeto
+
+1. Clone o repositório
+  * `git clone git@github.com:pedrohrbispo/Desafio-Ford.git`.
+  * Entre na pasta do repositório que você acabou de clonar:
+    * `cd Desafio-ford`
+
+2. Rode o node no script index.js
+    * `node index.js`
 
 A Ford está se transformando em uma gigante da tecnologia, e utilizando software para mudar a
 forma que enxergamos a mobilidade e criar experiências positivas na vida das pessoas. Pensando
