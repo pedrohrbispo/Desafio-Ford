@@ -6,7 +6,8 @@ const allRegions = regionsInfos.regions;
 const arrival = [];
 const departure = [];
 
-const createdRoutes = [];
+const arrivalRoutes = [];
+const departuredRoutes = [];
 
 regionsInfos.regionsConnecteds.forEach((region) => {
   arrival.push(region.from);
@@ -18,9 +19,9 @@ allRegions.forEach((region) => {
   isOnDeparture = departure.find((element) => element === region);
   
   if (!isOnArrival) {
-    createdRoutes.push({ arrival: region });
+    arrivalRoutes.push(region);
   }
 })
 
-console.log(createdRoutes);
+console.log(arrivalRoutes);
 console.log(departure);
