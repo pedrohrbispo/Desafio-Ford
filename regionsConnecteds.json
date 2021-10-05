@@ -1,0 +1,8 @@
+{
+  "regionsConnecteds": [
+    { "from": "Norte", "to": "Nordeste"},
+    { "from": "Sudeste", "to": "Centro Oeste"},
+    { "from": "Sudeste", "to": "Sul"}
+  ],
+  "regions" : ["Norte", "Sul, Centro Oeste", "Sudeste", "Nordesde"]
+}

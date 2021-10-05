@@ -1,0 +1,9 @@
+{
+  "capitalRegionsBrazil": [
+      { "Norte": ["Rio Branco", "Macapá", "Manaus","Belém","Porto Velho", "Boa Vista", "Palmas"] },
+      { "Sul": ["Curitiba", "Porto Alegre", "Florianópolis"] },
+      { "Sudeste": ["Vitória", "Belo Horizonte", "São Paulo","Rio de Janeiro"] },
+      { "Nordeste": ["Maceió", "Salvador", "Fortaleza","São Luís","João Pessoa", "Recife", "Teresina" , "Natal", "Aracaju"] },
+      { "Centro Oeste": ["Goiânia", "Cuiabá","Campo Grande","Brasília"] }
+  ]
+}
