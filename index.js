@@ -7,7 +7,7 @@ const arrival = [];
 const departure = [];
 
 const arrivalRoutes = [];
-const departuredRoutes = [];
+const departureRoutes = [];
 
 regionsInfos.regionsConnecteds.forEach((region) => {
   arrival.push(region.from);
@@ -21,7 +21,10 @@ allRegions.forEach((region) => {
   if (!isOnArrival) {
     arrivalRoutes.push(region);
   }
+  if (!isOnDeparture) {
+    departure.push(region);
+  }
 })
 
 console.log(arrivalRoutes);
-console.log(departure);
+console.log(departureRoutes);
