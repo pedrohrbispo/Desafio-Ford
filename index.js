@@ -6,6 +6,8 @@ const allRegions = regionsInfos.regions;
 const arrival = [];
 const departure = [];
 
+const createdRoutes = [];
+
 regionsInfos.regionsConnecteds.forEach((region) => {
   arrival.push(region.from);
   departure.push(region.to);
@@ -16,10 +18,9 @@ allRegions.forEach((region) => {
   isOnDeparture = departure.find((element) => element === region);
   
   if (!isOnArrival(region)) {
-
+    createdRoutes.push({ arrival: region });
   }
 })
 
-console.log(arrival);
+console.log(createdRoutes);
 console.log(departure);
-console.log(isOnArrivalAndDeparture('Nordeste'));
