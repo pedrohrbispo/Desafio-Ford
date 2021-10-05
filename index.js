@@ -17,7 +17,7 @@ allRegions.forEach((region) => {
   isOnArrival = arrival.find((element) => element === region);
   isOnDeparture = departure.find((element) => element === region);
   
-  if (!isOnArrival(region)) {
+  if (!isOnArrival) {
     createdRoutes.push({ arrival: region });
   }
 })
